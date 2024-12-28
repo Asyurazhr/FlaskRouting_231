@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f5e3c3, #e4d3af); /* Gradasi coklat muda terang */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #4d331f; /* Warna coklat gelap untuk teks */
+    text-align: center;
+}
+
+.welcome-container {
+    background-color: rgba(255, 255, 240, 0.9); /* Warna cream terang dengan transparansi */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #5c3d2e; /* Warna coklat gelap */
+}
+
+p {
+    font-size: 18px;
+    color: #5c3d2e; /* Warna coklat gelap */
+}
+
+a {
+    text-decoration: none;
+    color: #a67856; /* Warna coklat terang */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c9974c; /* Warna coklat emas terang */
+}
